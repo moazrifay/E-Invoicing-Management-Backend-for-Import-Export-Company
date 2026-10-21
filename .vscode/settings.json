@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "p1_bills",
+            "database": "postgres",
+            "username": "postgres",
+            "connectionTimeout": 30,
+            "password": "engmoaz"
+        },
+        {
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "company_accounting",
+            "database": "company_accounting",
+            "username": "postgres",
+            "password": "engmoaz",
+            "connectionTimeout": 60
+        }
+    ]
+}
